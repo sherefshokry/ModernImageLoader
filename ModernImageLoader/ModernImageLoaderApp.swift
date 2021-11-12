@@ -11,7 +11,7 @@ import SwiftUI
 struct ModernImageLoaderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(source: URL(string: "https://dashboard.tamweel-mortgage.com/storage/uploads/small/qsikkifhc91613317754.jpeg")! )
         }
     }
 }
